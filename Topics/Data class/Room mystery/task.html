@@ -1,0 +1,46 @@
+<h2>Room mystery</h2>
+<p></p>
+<p>You have the following snippet of code:</p>
+<pre><code class="language-kotlin">data class Floor(val area: Int, val building: String, val numberOfRooms: Int) {
+    override fun equals(other: Any?): Boolean {
+        return other is Floor &amp;&amp; building == other.building &amp;&amp; 
+        area == other.area &amp;&amp; numberOfRooms == other.numberOfRooms
+    }
+}</code></pre>
+<p>Also, you have the following output:</p>
+<pre><code class="language-kotlin">false
+true
+false</code></pre>
+<p>Choose the correct <code class="language-kotlin">main()</code> functions for the given output:</p>
+<pre><code class="language-kotlin">1) fun main() {
+    val first = Floor(140, "University", 4)
+    val second = Floor(140, "University", 4)
+    val third = Floor(140, "University", 4)
+    println(first == second)
+    println(first == third)
+    println(second == third)
+}</code></pre>
+<pre><code class="language-kotlin">2) fun main() {
+    val first = Floor(140, "University", 4)
+    val second = Floor(150, "University", 4)
+    val third = Floor(140, "University", 4)
+    println(first == second)
+    println(first == third)
+    println(second == third)
+}</code></pre>
+<pre><code class="language-kotlin">3) fun main() {
+    val first = Floor(140, "Universyty", 4)
+    val second = Floor(140, "University", 3)
+    val third = Floor(140, "Universyty", 4)
+    println(first == second)
+    println(first == third)
+    println(second == third)
+}</code></pre>
+<pre><code class="language-kotlin">4) fun main() {
+    val first = Floor(140, "Unversity", 4)
+    val second = Floor(140, "Unversity", 4)
+    val third = Floor(140, "Unversity", 4)
+    println(first == second)
+    println(first == third)
+    println(second == third)
+}</code></pre>

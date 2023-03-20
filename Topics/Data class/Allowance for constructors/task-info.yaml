@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Parameters in the primary constructor might be both val and var.
+- text: It's prohibited to create more than one constructor for a data class.
+- text: The primary constructor is not required to have default values for the parameters.
+- text: The primary constructor of a data class may have zero parameters.
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8529#comment
+status: Solved
+record: -1
+local_check: false
