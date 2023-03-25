@@ -1,0 +1,1 @@
+fun main() = println(List(5) { readln() }.joinToString(" "))
