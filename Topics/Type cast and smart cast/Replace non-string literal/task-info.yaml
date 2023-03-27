@@ -1,0 +1,18 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun convertToStringList(list: List<Any>): List<String> {
+        val stringList = mutableListOf<String>()
+        for (element in list) {
+            val stringElement = // make your code here
+            stringList.add(stringElement)
+        }
+        return stringList
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/26460#comment
+status: Solved
+record: -1
+submission_language: kotlin

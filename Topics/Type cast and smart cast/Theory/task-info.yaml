@@ -1,10 +1,4 @@
-type: choice
-is_multiple_choice: false
-options:
-- text: equals()
-- text: compare()
-- text: ' copy() and hashCode()'
-- text: copy()
+type: theory
 files:
 - name: src/Main.kt
   visible: true
@@ -15,7 +9,7 @@ files:
       // put your code here
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/23013#comment
+feedback_link: https://hyperskill.org/learn/step/26453#comment
 status: Solved
 record: -1
-local_check: false
+post_submission_on_open: true
